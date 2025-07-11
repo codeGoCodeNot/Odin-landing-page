@@ -73,3 +73,50 @@ button {
   margin-bottom: 30px;
   font-size: 18px;
 }
+
+main img {
+  width: 320px;
+  height: auto;
+}
+
+main p {
+  color: black;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+article h1 {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+article {
+  background-color: #e5e7eb;
+  height: 250px;
+  padding: 10px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article p {
+  color: #1f2937;
+}
+
+.author {
+  align-self: flex-end;
+  padding: 20px;
+  margin-right: 170px;
+}
